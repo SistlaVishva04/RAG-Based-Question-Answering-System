@@ -1,0 +1,37 @@
+numpy==1.26.4
+
+# Core API
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Request validation
+pydantic==2.6.4
+pydantic-settings==2.2.1
+
+# File handling
+python-multipart==0.0.9
+
+# PDF & TXT parsing
+pymupdf==1.23.26
+
+
+# Embeddings & similarity search
+sentence-transformers==2.6.1
+chromadb==0.4.24
+
+
+# LLM (Gemini)
+google-generativeai==0.3.2
+
+# Background tasks & utilities
+tqdm==4.66.2
+
+# Rate limiting
+slowapi==0.1.9
+limits==3.8.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Logging helpers
+loguru==0.7.2

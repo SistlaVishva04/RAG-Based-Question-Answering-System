@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+
+# Environment variables
+.env
+
+# Local document storage
+backend/app/db/documents/*.pdf
+backend/app/db/documents/*.txt
